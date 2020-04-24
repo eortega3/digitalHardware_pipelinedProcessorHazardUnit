@@ -1,0 +1,25 @@
+Project 09 - MIPS Pipelined Processor (Part II)
+COMP300 @ USD (Fall 2018)
+
+1. Partner A Name: Eduardo Ortega
+   Partner B Name: Nick Loyd
+
+2. Partner A Email: eortega@sandiego.edu
+   Partner B Email: nloyd@sandiego.edu
+
+3. Project Overview:  We impleneted muxes to extablish a hazard unit fowarding and stalling calls to aid the CPI of our mulit cycle processor.  One of the biggest issues was realizing how the heairarhcy of inputs and outputs affected one another.  Overall through analyzing our ignals through the unit test we were able to get th whole project to work by analysing how (through each stage of the processor) each future signals could affect dependecy's.  This led us to the logic needed for the lw_sw signal to forward the result from the write stage to the memory stage.  This aided in implementing a lw stall that would wrk in conjuction with this new forwarding path.
+
+4. Hours Spent on Project: 
+	- Partner A alone: 7
+	- Partner B alone: 4
+	- Together: 10
+
+5. Project Bucks:
+	- On this project:0
+		- Partner A:0
+		- Partner B:0
+	- So far this semester: 0
+		- Partner A:0
+		- Partner B:0
+
+6. (Optional) Comments:
